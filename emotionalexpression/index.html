@@ -1,0 +1,71 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Title</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hakimel/reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hakimel/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="../common/urosario.css" id="theme">
+
+</head>
+
+<body>
+  <div class="reveal">
+
+    <div class="slides">
+
+      <section>
+        <div class="intro">
+          <h3>The Science(s) of the Face</h3>
+          <h1>What does universality of emotional expression tell us about emotion?</h1>
+
+          Juan R. Loaiza<br>
+          <div style="font-weigt: 200; font-size: 80%">
+            Escuela de Ciencias Humanas<br>
+
+            Universidad del Rosario<br>
+
+            2020
+          </div>
+
+        </div>
+      </section>
+
+        <section data-markdown="expression.md"
+                 data-separator="^\n---section---\n"
+                 data-separator-vertical="^\n---\n"
+                 data-separator-notes="^---Notes---\n"
+                 data-charset="utf-8">
+        </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/gh/hakimel/reveal.js/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/hakimel/reveal.js/plugin/notes/notes.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/hakimel/reveal.js/plugin/markdown/markdown.js"></script>
+
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+      width: "70%",
+      height: "70%",
+      margin: 0.15,
+      navigationMode: "linear",
+      transitionSpeed: "slow",
+      slideNumber: 'c/t',
+      pdfSeparateFragments: false,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealNotes]
+    });
+  </script>
+</body>
+
+</html>
